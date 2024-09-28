@@ -1,4 +1,4 @@
-FROM ifx-base-python-sample:3.12
+FROM python:3.12
 
 # Set the working directory to /app
 WORKDIR /app
