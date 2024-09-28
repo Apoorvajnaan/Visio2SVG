@@ -1,5 +1,2 @@
-from flask import Flask, request, jsonify
-import os
-import win32com.client
-import pythoncom
-import logging
+flask
+pywin32
