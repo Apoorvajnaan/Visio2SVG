@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: visio-to-svg-converter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: visio-to-svg-converter
+  template:
+    metadata:
+      labels:
+        app: visio-to-svg-converter
+    spec:
+      containers:
+      - name: visio-to-svg-converter
+        image: python:3.12
+        ports:
+        - containerPort: 5000
