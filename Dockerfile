@@ -1,4 +1,4 @@
-FROM openshift/ifx-base-python:3.12
+FROM ifx-base-python:3.12
 
 # Set the working directory to /app
 WORKDIR /app
