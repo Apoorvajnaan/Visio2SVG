@@ -1,2 +1,3 @@
-flask
-pywin32
+Flask==2.0.1
+win32com==0.20210827
+pythoncom==0.20210827
